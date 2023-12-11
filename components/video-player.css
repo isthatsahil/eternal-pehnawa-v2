@@ -1,0 +1,3 @@
+div:has(> .video) {
+  padding: 1rem;
+}

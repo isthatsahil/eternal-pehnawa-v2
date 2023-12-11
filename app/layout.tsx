@@ -4,6 +4,7 @@ import "./globals.css";
 import commerce from "@/lib/commerce";
 import Navbar from "@/components/Navbar";
 
+import { CategoryCollection } from "@chec/commerce.js/features/categories";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
