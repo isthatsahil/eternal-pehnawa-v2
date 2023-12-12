@@ -23,6 +23,7 @@ const RelatedProducts = ({ relatedProducts }: RelatedProductsProps) => {
                     src={product?.image?.url ? product?.image?.url : ""}
                     alt={product?.name}
                     width={200}
+                    unoptimized
                     height={200}
                   />
                 </Link>

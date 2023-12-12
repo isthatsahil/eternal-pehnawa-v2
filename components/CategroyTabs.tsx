@@ -255,6 +255,7 @@ export default function Example({ categories }: CategoriesWrapperType) {
                                     alt={product?.name}
                                     width={300}
                                     height={300}
+                                    unoptimized
                                   />
                                 </Link>
                               </div>

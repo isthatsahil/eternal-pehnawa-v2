@@ -21,7 +21,7 @@ export default async function RecentProducts(): Promise<React.JSX.Element> {
           <h2 className="text-2xl font-bold tracking-tight text-gray-900 ">
             Our Newest Products
           </h2>
-          <Link
+          {/* <Link
             className="text-primary flex items-center gap-x-2"
             href="/all-products"
           >
@@ -29,7 +29,7 @@ export default async function RecentProducts(): Promise<React.JSX.Element> {
             <span>
               <ArrowRight />
             </span>
-          </Link>
+          </Link> */}
         </div>
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {recentproducts?.data?.map((product) => {
@@ -43,6 +43,7 @@ export default async function RecentProducts(): Promise<React.JSX.Element> {
                       alt={product?.name}
                       width={300}
                       height={300}
+                      unoptimized
                     />
                   </Link>
                 </div>
